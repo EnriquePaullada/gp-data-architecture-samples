@@ -1,0 +1,21 @@
+# Core API Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+
+# Date/Time Handling
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Development/Testing (optional)
+pytest>=7.4.3
+httpx>=0.25.1  # For testing async endpoints
+black>=23.11.0  # Code formatting
+mypy>=1.7.0    # Type checking
+
+# Note: This is a simplified requirements file for the code samples.
+# Production GP Data used additional dependencies:
+# - Motor (async MongoDB driver)
+# - OpenAI Python client
+# - WhatsApp Business API client
+# - n8n (self-hosted, not a Python package)
